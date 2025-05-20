@@ -8,6 +8,9 @@ import About from './components/About';
 import Projects from './components/Projects';
 import RevealOnScroll from './components/RevealOnScroll';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,6 +29,7 @@ function App() {
        <Projects/>
        <RevealOnScroll/>
        <Contact/>
+       <Footer/>
       </div>
     </>
   );
