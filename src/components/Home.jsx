@@ -3,11 +3,11 @@ import lana from '../assets/lana.jpg'
 import { ArrowDown } from "lucide-react";
 const Home = () => {
   return (
-  <section id="home" className="min-h-screen flex bg-gradient-to-b from-cyan-800/40  to-black  column items-center 
+  <section id="home" className="min-h-screen  py-20  flex bg-gradient-to-b from-cyan-800/40  to-black  column items-center 
   justify-center">
 
  <RevealOnScroll> 
-  <div className=' flex flex-col gap-3 items-center  lg:flex-row '>
+  <div className=' flex flex-col gap-3 items-center lg:flex-row '>
   <div className=" flex items-center lg:items-start justify-center flex-col lg:gap-5 gap-1 lg:mr-5  z-10 px-3">
     <h1 className="text-5xl lg:text-7xl text-center lg:text-start font-bold  bg-gradient-to-r from-cyan-400 to-cyan-700 leading-right bg-clip-text text-transparent">Hi, <br/>I’m Lana Lezhava<br />
     a frontend dev.</h1>
@@ -28,7 +28,7 @@ const Home = () => {
   </a>
     </div>
   </div>
-  <div className='w-90 h-90 mx-3'>
+  <div className='lg:w-90 lg:h-90 w-50 h-50 mx-3'>
          <img className='object-cover  hover:-translate-y-2 hover:border-cyan-500  transition  rounded ' src={lana} alt="" />
 
   </div>
